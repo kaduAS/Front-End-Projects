@@ -50,12 +50,6 @@ This site is where I present who I am, what I’m learning, and what I’m build
 
 ---
 
-## Live Preview
-
-[https://github.com/kaduAS/Front-End-Projects/tree/main/Personal%20Portfolio%20%231](https://github.com/kaduAS/Front-End-Projects/tree/main/Personal%20Portfolio%20%231)
-
----
-
 ## Feedback
 
 This project is part of my learning journey.  
