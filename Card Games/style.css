@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background:linear-gradient(0.25turn, #151414);
+  color: #8c8a87;
+  padding: 40px;
+  text-align: center;
+}
+
+h1{
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.card-container{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ gap: 30px;
+}
+
+.card{
+ background-color: #202020;
+ color: #eee;
+ width: 260px;
+ border-radius: 12px;
+ overflow: hidden;
+ box-shadow: 0 6px 15px rgba(60, 60, 60, 0.4);
+transition: transform 0.3 ease, box-shadow 0.3 ease;
+}
+
+.card:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 6px 20px rgba(100, 100, 100, 0.6);
+}
+
+.card img{
+  width: 250px;
+  height: 160px;
+  object-fit: cover;
+}
+
+.card h2{
+  margin: 15px 0 10px;
+  font-size: 25px;
+  color: #8c8a87;
+}
+
+.card p{
+ padding: 0 15px 20px;
+ text-align: justify;
+ font-size: 20px;
+ line-height: 1.5;
+}
+
+
+
+
